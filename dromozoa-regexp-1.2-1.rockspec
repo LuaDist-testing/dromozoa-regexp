@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-regexp"
-version = "1.1-1"
+version = "1.2-1"
 -- LuaDist source
 source = {
-  tag = "1.1-1",
+  tag = "1.2-1",
   url = "git://github.com/LuaDist-testing/dromozoa-regexp.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-regexp/archive/v1.1.tar.gz";
---   file = "dromozoa-regexp-1.1.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-regexp/archive/v1.2.tar.gz";
+--   file = "dromozoa-regexp-1.2.tar.gz";
 -- }
 description = {
   summary = "Regular expressions toolkit";
@@ -21,6 +21,7 @@ description = {
 dependencies = {
   "dromozoa-commons";
   "dromozoa-graph";
+  "dromozoa-tree";
 }
 build = {
   type = "builtin";
