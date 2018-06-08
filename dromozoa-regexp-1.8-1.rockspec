@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-regexp"
-version = "1.7-1"
+version = "1.8-1"
 -- LuaDist source
 source = {
-  tag = "1.7-1",
+  tag = "1.8-1",
   url = "git://github.com/LuaDist-testing/dromozoa-regexp.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-regexp/archive/v1.7.tar.gz";
---   file = "dromozoa-regexp-1.7.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-regexp/archive/v1.8.tar.gz";
+--   file = "dromozoa-regexp-1.8.tar.gz";
 -- }
 description = {
   summary = "Regular expressions toolkit";
@@ -44,7 +44,7 @@ build = {
     ["dromozoa.regexp.syntax_tree.ere_parser"] = "dromozoa/regexp/syntax_tree/ere_parser.lua";
     ["dromozoa.regexp.syntax_tree.ere_unparser"] = "dromozoa/regexp/syntax_tree/ere_unparser.lua";
     ["dromozoa.regexp.syntax_tree.graphviz_visitor"] = "dromozoa/regexp/syntax_tree/graphviz_visitor.lua";
-    ["dromozoa.regexp.syntax_tree.locale"] = "dromozoa/regexp/syntax_tree/locale.lua";
+    ["dromozoa.regexp.locale"] = "dromozoa/regexp/locale.lua";
     ["dromozoa.regexp.syntax_tree.node_to_condition"] = "dromozoa/regexp/syntax_tree/node_to_condition.lua";
     ["dromozoa.regexp.syntax_tree.normalize"] = "dromozoa/regexp/syntax_tree/normalize.lua";
     ["dromozoa.regexp.syntax_tree.to_nfa"] = "dromozoa/regexp/syntax_tree/to_nfa.lua";
