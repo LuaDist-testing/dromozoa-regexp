@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-regexp"
-version = "1.5-1"
+version = "1.6-1"
 -- LuaDist source
 source = {
-  tag = "1.5-1",
+  tag = "1.6-1",
   url = "git://github.com/LuaDist-testing/dromozoa-regexp.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-regexp/archive/v1.5.tar.gz";
---   file = "dromozoa-regexp-1.5.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-regexp/archive/v1.6.tar.gz";
+--   file = "dromozoa-regexp-1.6.tar.gz";
 -- }
 description = {
   summary = "Regular expressions toolkit";
@@ -29,6 +29,7 @@ build = {
     ["dromozoa.regexp"] = "dromozoa/regexp.lua";
     ["dromozoa.regexp.automaton"] = "dromozoa/regexp/automaton.lua";
     ["dromozoa.regexp.automaton.compile"] = "dromozoa/regexp/automaton/compile.lua";
+    ["dromozoa.regexp.automaton.decompile"] = "dromozoa/regexp/automaton/decompile.lua";
     ["dromozoa.regexp.automaton.graphviz_visitor"] = "dromozoa/regexp/automaton/graphviz_visitor.lua";
     ["dromozoa.regexp.automaton.normalize_assertions"] = "dromozoa/regexp/automaton/normalize_assertions.lua";
     ["dromozoa.regexp.automaton.powerset_construction"] = "dromozoa/regexp/automaton/powerset_construction.lua";
